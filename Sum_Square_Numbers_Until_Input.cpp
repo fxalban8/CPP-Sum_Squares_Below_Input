@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+
+int sum_Squares_below(int n);
+
+
 int main(){
 	
 	int x;
