@@ -14,3 +14,12 @@ int main(){
 	cout<<"The sum of the squares of all the positive numbers below the entered one is ";
 	return 0;
 }
+
+int sum_Squares_below(int n){
+	int sum=0;
+	for(int i=1;i<=n;i++){
+		sum+=i*i;
+	}
+	return sum;
+
+}
