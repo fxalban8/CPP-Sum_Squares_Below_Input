@@ -11,7 +11,12 @@ int main(){
 	int x;
 	cout<<"Enter a number: "<<flush;
 	cin>>x;
-	
+
+	while(!cin||x<0){
+		controlInput(x);
+	}
+
+
 	cout<<"The sum of the squares of all the positive numbers below the entered one is "<<sum_Squares_below(x)<<endl;
 	return 0;
 }
