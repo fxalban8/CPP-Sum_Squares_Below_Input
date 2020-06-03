@@ -1,4 +1,5 @@
 #include <iostream>
+#include <limits>
 using namespace std;
 
 
@@ -23,3 +24,12 @@ int sum_Squares_below(int n){
 	return sum;
 
 }
+
+void controlInput(int& n){
+	cin.clear();
+	cin.ignore(numeric_limits<streamsize>::max(),'\n');
+	cout<<"Enter a correct value: "<<flush;
+	cin>>n;
+}
+
+
