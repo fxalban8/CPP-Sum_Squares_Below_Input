@@ -3,7 +3,7 @@ using namespace std;
 
 
 int sum_Squares_below(int n);
-
+void controlInput(int& n);
 
 int main(){
 	
